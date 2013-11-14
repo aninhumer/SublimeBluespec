@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+rule $1;
+	$0
+endrule
+]]></content>
+	<tabTrigger>rule</tabTrigger>
+	<scope>source.bluespec</scope>
+</snippet>

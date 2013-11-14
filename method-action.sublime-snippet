@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+method Action $1($2);
+	$3
+endmethod
+]]></content>
+	<tabTrigger>maction</tabTrigger>
+	<scope>source.bluespec</scope>
+</snippet>

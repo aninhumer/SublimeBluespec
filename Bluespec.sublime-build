@@ -1,0 +1,12 @@
+{
+    "shell_cmd": "bsc -u ${file}",
+    "selector": "source.bluespec",
+    "file_regex": "^Error: \"([^\"]+)\", line (\\d+), column (\\d+):",
+    "working_dir": "${file_path}",
+    "path": "/bin:/usr/bin:/usr/groups/ecad/bluespec/current/bin",
+    "env": {
+        "BLUESPEC": "/usr/groups/ecad/bluespec/current",
+        "BLUESPECDIR": "/usr/groups/ecad/bluespec/current/lib",
+        "LM_LICENSE_FILE": ":27012@lmserv-altera.cl.cam.ac.uk:27001@lmserv-bluespec.cl.cam.ac.uk"
+    }
+}

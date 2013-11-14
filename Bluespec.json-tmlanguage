@@ -1,0 +1,31 @@
+{ "name": "Bluespec",
+  "scopeName": "source.bluespec",
+  "fileTypes": ["bsv"],
+  "patterns": [
+      { "name": "comment.line.bluespec",
+        "begin": "//",
+        "end": "$"
+      },
+      { "name": "comment.block.bluespec",
+        "begin": "/\\*",
+        "end": "\\*/"
+      },
+      {  "name": "keyword.other.bluespec",
+         "match": "(action|endaction|actionvalue|endactionvalue|ancestor|deriving|endinstance|let|match|method|endmethod|module|endmodule|par|endpar|powered_by|provisos|rule|endrule|rules|endrules|seq|endseq|schedule|typeclass|endtypeclass|clock|reset|noreset|no_reset|valueof|valueOf|clocked_by|reset_by|default_clock|default_reset|output_clock|output_reset|input_clock|input_reset|same_family|package|endpackage|tagged)"
+      },
+      {  "name": "constant.numeric.bluespec",
+         "match": "([+-]?\\d[\\d_]*|(\\d*|[+-])'([dD][\\d_]+|[hH][0-9a-fA-F_]+|[oO][0-7_]+|[bB][01_]+))"
+      },
+      { "name": "string.quoted.double.bluespec",
+        "begin": "\"",
+        "end": "\""
+      },
+      {  "name": "storage.type.bluespec",
+         "match": "[A-Z][A-Za-z0-9_]*"
+      },
+      {  "name": "keyword.operator.bluespec",
+         "match": "[&|~><!)(*/#%@+=?:;}{,.^-[]]"
+      }
+  ],
+  "uuid": "2f0cfe5f-52ad-4ab4-aa22-95cf6d5a9b61"
+}

@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+actionvalue
+	$1
+endactionvalue
+]]></content>
+	<tabTrigger>avalue</tabTrigger>
+	<scope>source.bluespec</scope>
+</snippet>

@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[
+typedef enum {$2} $1;
+]]></content>
+    <tabTrigger>enum</tabTrigger>
+    <scope>source.bluespec</scope>
+</snippet>

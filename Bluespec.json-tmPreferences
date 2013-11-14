@@ -1,0 +1,9 @@
+{
+    "name": "Bluespec",
+    "scope": "source.bluespec",
+    "settings": {
+        "decreaseIndentPattern": "^\\s*end(module|interface|function|typeclass|instance|action|actionvalue|rule)$",
+        "increaseIndentPattern": "^\\s*(module|interface|function|typeclass|instance|action|actionvalue|rule)[^=]*[=;]$"
+    },
+    "uuid": "a4ecde50-dd82-11e2-a28f-0800200c9a66"
+}

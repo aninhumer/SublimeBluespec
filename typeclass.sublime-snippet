@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+typeclass $1;
+	$0
+endtypeclass
+]]></content>
+	<tabTrigger>typeclass</tabTrigger>
+	<scope>source.bluespec</scope>
+</snippet>

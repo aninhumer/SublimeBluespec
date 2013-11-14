@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+interface $1;
+	$0
+endinterface
+]]></content>
+	<tabTrigger>interface</tabTrigger>
+	<scope>source.bluespec</scope>
+</snippet>

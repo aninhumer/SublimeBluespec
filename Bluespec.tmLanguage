@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>fileTypes</key>
+    <array>
+        <string>bsv</string>
+    </array>
+    <key>name</key>
+    <string>Bluespec</string>
+    <key>patterns</key>
+    <array>
+        <dict>
+            <key>begin</key>
+            <string>//</string>
+            <key>end</key>
+            <string>$</string>
+            <key>name</key>
+            <string>comment.line.bluespec</string>
+        </dict>
+        <dict>
+            <key>begin</key>
+            <string>/\*</string>
+            <key>end</key>
+            <string>\*/</string>
+            <key>name</key>
+            <string>comment.block.bluespec</string>
+        </dict>
+        <!-- <dict>
+            <key>begin</key>
+            <string>typedef</string>
+            <key>end</key>
+            <string>;</string>
+            <key>name</key>
+            <string>storage.typedef.bluespec</string>
+            <key>beginCaptures</key>
+            <dict>
+                <key>0</key>
+                <dict>
+                    <key>name</key>
+                    <string>keyword.storage.bluespec</string>
+                </dict>
+            </dict>
+        </dict> -->
+        <dict>
+            <key>match</key>
+            <string>\b(action|endaction|actionvalue|endactionvalue|ancestor|dependencies|determines|deriving|let|match|method|endmethod|module|endmodule|function|endfunction|par|endpar|powered_by|provisos|rule|endrule|return|rules|endrules|seq|endseq|schedule|typeclass|endtypeclass|clock|reset|noreset|no_reset|valueof|valueOf|clocked_by|reset_by|default_clock|default_reset|output_clock|output_reset|interface|endinterface|instance|import|export|endinstance|input_clock|input_reset|same_family|package|endpackage|typedef|if|else|begin|end|type|numeric|case|endcase|matches|default|for|struct|tagged|while)\b</string>
+            <key>name</key>
+            <string>keyword.other.bluespec</string>
+        </dict>
+        <dict>
+            <key>match</key>
+            <string>\b([+-]?\d[\d_]*|(\d*|[+-])?'([dD][\d_]+|[hH][0-9a-fA-F_]+|[oO][0-7_]+|[bB][01_]+))\b</string>
+            <key>name</key>
+            <string>constant.numeric.bluespec</string>
+        </dict>
+        <dict>
+            <key>begin</key>
+            <string>"</string>
+            <key>end</key>
+            <string>"</string>
+            <key>name</key>
+            <string>string.quoted.double.bluespec</string>
+        </dict>
+        <dict>
+            <key>match</key>
+            <string>\b[A-Z][A-Za-z0-9_]*</string>
+            <key>name</key>
+            <string>storage.type.bluespec</string>
+        </dict>
+        <dict>
+            <key>match</key>
+            <string>[&amp;|~&gt;&lt;!)(*/#%@+=?:;}{,.^\-\[\]]</string>
+            <key>name</key>
+            <string>keyword.operator.bluespec</string>
+        </dict>
+    </array>
+    <key>scopeName</key>
+    <string>source.bluespec</string>
+    <key>uuid</key>
+    <string>2f0cfe5f-52ad-4ab4-aa22-95cf6d5a9b61</string>
+</dict>
+</plist>

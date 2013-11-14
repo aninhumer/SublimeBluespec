@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+case ($1) matches
+	$2 : return $3
+endcase
+]]></content>
+	<tabTrigger>case</tabTrigger>
+	<scope>source.bluespec</scope>
+</snippet>
