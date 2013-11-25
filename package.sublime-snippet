@@ -7,6 +7,7 @@ $0
 
 
 endpackage
+
 ]]></content>
     <tabTrigger>package</tabTrigger>
     <scope>source.bluespec</scope>
