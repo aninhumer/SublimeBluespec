@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+mkAlwaysFSM(seq
+	$0
+endseq);
+]]></content>
+	<tabTrigger>mkAlwaysFSM</tabTrigger>
+	<scope>source.bluespec</scope>
+</snippet>

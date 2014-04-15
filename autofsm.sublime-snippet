@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+mkAutoFSM(seq
+	$0
+endseq);
+]]></content>
+	<tabTrigger>mkAutoFsm</tabTrigger>
+	<scope>source.bluespec</scope>
+</snippet>
