@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-typedef enum {$2} $1;
+enum {$2}
 ]]></content>
     <tabTrigger>enum</tabTrigger>
     <scope>source.bluespec</scope>
