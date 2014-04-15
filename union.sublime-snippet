@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+union tagged {
+	$0
+}
+]]></content>
+	<tabTrigger>union</tabTrigger>
+	<scope>source.bluespec</scope>
+</snippet>
