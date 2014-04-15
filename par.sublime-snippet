@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+par
+	$1
+endpar
+]]></content>
+	<tabTrigger>par</tabTrigger>
+	<scope>source.bluespec</scope>
+</snippet>

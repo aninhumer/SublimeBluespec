@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+seq
+	$1
+endseq
+]]></content>
+	<tabTrigger>seq</tabTrigger>
+	<scope>source.bluespec</scope>
+</snippet>
