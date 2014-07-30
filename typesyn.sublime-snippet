@@ -1,7 +1,7 @@
 <snippet>
 	<content><![CDATA[
-typedef $2 $1 deriving(Eq, Bits, FShow);
+typedef $2 $1;
 ]]></content>
-	<tabTrigger>typedef</tabTrigger>
+	<tabTrigger>typesyn</tabTrigger>
 	<scope>source.bluespec</scope>
 </snippet>
