@@ -4,6 +4,6 @@ mkAutoFSM(seq
 	$0
 endseq);
 ]]></content>
-	<tabTrigger>mkAutoFsm</tabTrigger>
+	<tabTrigger>mkAutoFSM</tabTrigger>
 	<scope>source.bluespec</scope>
 </snippet>
