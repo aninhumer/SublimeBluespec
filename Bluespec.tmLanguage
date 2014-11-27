@@ -44,7 +44,7 @@
         </dict> -->
         <dict>
             <key>match</key>
-            <string>\b(action|endaction|actionvalue|endactionvalue|ancestor|dependencies|determines|deriving|let|match|method|endmethod|module|endmodule|function|endfunction|par|endpar|powered_by|provisos|rule|endrule|return|rules|endrules|seq|endseq|schedule|typeclass|endtypeclass|clock|reset|noreset|no_reset|valueof|valueOf|clocked_by|reset_by|default_clock|default_reset|output_clock|output_reset|interface|endinterface|instance|import|export|endinstance|input_clock|input_reset|same_family|package|endpackage|typedef|if|else|begin|end|type|numeric|case|endcase|matches|default|for|struct|union|tagged|while|repeat|break)\b</string>
+            <string>\b(action|endaction|actionvalue|endactionvalue|ancestor|dependencies|determines|deriving|let|match|method|endmethod|module|endmodule|function|endfunction|par|endpar|powered_by|provisos|rule|endrule|return|rules|endrules|seq|endseq|schedule|typeclass|endtypeclass|clock|reset|noreset|no_reset|valueof|valueOf|clocked_by|reset_by|default_clock|default_reset|output_clock|output_reset|interface|endinterface|instance|import|export|endinstance|input_clock|input_reset|same_family|package|endpackage|typedef|if|else|begin|end|type|numeric|case|endcase|matches|default|for|struct|union|tagged|while|repeat|break|parameter)\b</string>
             <key>name</key>
             <string>keyword.other.bluespec</string>
         </dict>
