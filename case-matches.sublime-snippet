@@ -1,9 +1,9 @@
 <snippet>
 	<content><![CDATA[
-case ($1)
-	$0
+case ($1) matches
+	tagged $0
 endcase
 ]]></content>
-	<tabTrigger>case</tabTrigger>
+	<tabTrigger>casematches</tabTrigger>
 	<scope>source.bluespec</scope>
 </snippet>
